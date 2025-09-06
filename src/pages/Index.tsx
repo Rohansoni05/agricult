@@ -95,7 +95,7 @@ const Index = () => {
               <a href="#" className="hover:text-primary transition-colors">Contact</a>
             </div>
             <p className="text-xs text-muted-foreground">
-              © 2024 CropAdvisors. Revolutionizing agriculture through AI.
+              © 2025 CropAdvisors. Revolutionizing agriculture through AI.
             </p>
           </div>
         </div>
