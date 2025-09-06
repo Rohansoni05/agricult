@@ -29,7 +29,7 @@ const HeroSection = () => {
               
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-foreground">
               Smart Crop.
-                <span className="block bg-gradient-harvest bg-clip-text text-transparent">
+                <span className="block bg-gradient-harvest text-white bg-clip-text">
                   Advisory System
                 </span>
               </h1>
