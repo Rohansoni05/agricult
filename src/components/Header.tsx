@@ -15,7 +15,7 @@ const Header = () => {
               <Sprout className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="font-bold text-lg">ROHAN</h1>
+              <h1 className="font-bold text-lg">CropAdvisor</h1>
               <p className="text-xs text-muted-foreground">AI-Powered Agriculture</p>
             </div>
           </div>
