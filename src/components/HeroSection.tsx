@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Sprout, TrendingUp, CloudRain, DollarSign } from "lucide-react";
 import heroImage from "@/assets/hero-farming.jpg";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -29,7 +30,7 @@ const HeroSection = () => {
               
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-foreground">
               Smart Crop.
-                <span className="block bg-gradient-harvest text-white bg-clip-text">
+                <span className="block bg-gradient-harvest text- bg-clip-text">
                   Advisory System
                 </span>
               </h1>
@@ -67,6 +68,7 @@ const HeroSection = () => {
 
           {/* Right Column - Feature Cards */}
           <div className="space-y-6">
+            <Link to={'/weather'}>
             <Card className="p-6 bg-card/80 backdrop-blur-sm border border-border/50 shadow-card hover:shadow-glow transition-all duration-300">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-primary/10 rounded-lg">
@@ -80,6 +82,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </Card>
+            </Link>
 
             <Card className="p-6 bg-card/80 backdrop-blur-sm border border-border/50 shadow-card hover:shadow-glow transition-all duration-300">
               <div className="flex items-start gap-4">
@@ -94,7 +97,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </Card>
-
+<Link to={"/crop-price"}>
             <Card className="p-6 bg-card/80 backdrop-blur-sm border border-border/50 shadow-card hover:shadow-glow transition-all duration-300">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-accent/10 rounded-lg">
@@ -108,6 +111,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </Card>
+            </Link>
           </div>
         </div>
       </div>

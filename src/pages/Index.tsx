@@ -1,9 +1,10 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import CropAdvisoryForm from "@/components/CropAdvisoryForm";
+import CroporyForm from "@/components/CropAdvisoryForm";
 import RecommendationResults from "@/components/RecommendationResults";
 import { useToast } from "@/components/ui/use-toast";
+import CropAdvisoryForm from "@/components/CropAdvisoryForm";
 
 interface FormData {
   location: string;
@@ -59,7 +60,7 @@ const Index = () => {
         </section>
         
         <section id="recommendations">
-          <CropAdvisoryForm 
+          <CropAdvisoryForm
             onSubmit={handleFormSubmit}
             isLoading={isLoading}
           />

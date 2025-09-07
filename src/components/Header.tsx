@@ -38,9 +38,12 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
+            
+            
+ <a href="#recommendations" className="block text-sm font-medium hover:text-primary transition-colors">
             <Button className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
               Start Analysis
-            </Button>
+            </Button></a>
           </div>
 
           {/* Mobile Menu Button */}
